@@ -1,0 +1,69 @@
+import styled from "styled-components";
+
+export const TecnologiasCss = styled.div`
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+    h1{
+        margin: 10px 0 70px 0;
+    }
+    .tecnologias-bg{
+        max-width: 1200px;
+        width: 100%;
+        height: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .tecnologiasListaItems{
+        box-shadow: 0 0 1px black;
+        border-radius: 5px;
+    }
+    .tecnologiaTitulo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .tecnologiaTitulo h2{
+        font-weight: 500;
+    }
+    .tecnologiaLista{
+        margin-top: 20px;
+    }
+    .tecnologiaLista ul{
+        list-style: none;
+    }
+    .tecnologiaLista ul li{
+        margin: 10px 0;
+    }
+    .tecnologiaLista ul li i{
+        color: green;
+        margin-right: 10px;
+    }
+    .bola-bg{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .bola{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #90caf8;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bola i{
+        color: var(--white);
+        font-size: 30px;
+    }
+`;
