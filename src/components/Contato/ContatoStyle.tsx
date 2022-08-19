@@ -22,11 +22,11 @@ export const ContatoCss = styled.div`
     .contatoLadoEsquerdo{
         width: 50%;
         height: 100%;
+        display: flex;
     }
     .contatoRedeSocais{
         display: flex;
         justify-content: center;
-        flex-direction: row;
         width: 100%;
     }
     .contatoRedeSocaisItem{
@@ -136,6 +136,7 @@ export const ContatoCss = styled.div`
             width: 90%;
             height: 100%;
             display: flex;
+            justify-content: center;
         }   
     }
 `;
