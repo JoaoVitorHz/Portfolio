@@ -12,8 +12,8 @@ export function Header(){
                 <div className="menu">
                     <a href="">Sobre min</a>
                     <a href="">Projetos</a>
-                    <a href="">Home</a>
-                    <a href="">Home</a>
+                    <a href="">Tecnologias</a>
+                    <a href="">Contato</a>
                 </div>
             </header>
         </HeaderCss>

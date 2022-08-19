@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TecnologiasCss = styled.div`
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,4 +66,20 @@ export const TecnologiasCss = styled.div`
         color: var(--white);
         font-size: 30px;
     }
+
+    @media(max-width: 830px){
+    .tecnologias-bg{
+        max-width: 1200px;
+        width: 100%;
+        height: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 100px;
+    }
+    .tecnologiaLista{
+        display: flex;
+        justify-content: center;
+    }
+}
 `;

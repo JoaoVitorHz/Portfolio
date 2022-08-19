@@ -1,7 +1,8 @@
 import { ProjetosCss } from "./ProjetosStyle"
-import a from "../../assets/projetos/LandingPageReact.png"
+import LandiPageReact from "../../assets/projetos/LandingPageReact.png"
 import ContatosMvc from "../../assets/projetos/ContatosMVC.png"
 import Tintas from "../../assets/projetos/Tintas.png"
+import Caoselheiro from "../../assets/projetos/Cãoselheiro.png"
 
 export function Projetos(){
     return(
@@ -13,21 +14,21 @@ export function Projetos(){
                     <div className="frontendItems">
                         <div className="frontendItem">
                             <div className="ProjetosImg">
-                                <img src={a} alt="" />
+                                <img src={LandiPageReact} alt="" />
                             </div>
                             <a href="" >Landing Page Usando React<i className="fa-solid fa-arrow-right"></i></a>
                             <span>Uma landing Page que fiz pra praticar minhas habilidades com React</span>
                         </div>
                         <div className="frontendItem">
                         <div className="ProjetosImg">
-                                <img src={a} alt="" />
+                                <img src={Caoselheiro} alt="" />
                             </div>
                             <a href="" >Projeto 1<i className="fa-solid fa-arrow-right"></i></a>
                             <span>Descrição do projeto</span>
                         </div>
                         <div className="frontendItem">
                         <div className="ProjetosImg">
-                                <img src={a} alt="" />
+                                <img src={LandiPageReact} alt="" />
                             </div>
                             <a href="" >Projeto 1<i className="fa-solid fa-arrow-right"></i></a>
                             <span>Descrição do projeto</span>
@@ -53,7 +54,7 @@ export function Projetos(){
                         </div>
                         <div className="frontendItem">
                         <div className="ProjetosImg">
-                                <img src={a} alt="" />
+                                <img src={LandiPageReact} alt="" />
                             </div>
                             <a href="" >Projeto 1<i className="fa-solid fa-arrow-right"></i></a>
                             <span>Descrição do projeto</span>

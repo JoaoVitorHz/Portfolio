@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const ContatoCss = styled.div`
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #90caf8;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
 
     h1{
         color: var(--white);
@@ -21,6 +22,12 @@ export const ContatoCss = styled.div`
     .contatoLadoEsquerdo{
         width: 50%;
         height: 100%;
+    }
+    .contatoRedeSocais{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
     }
     .contatoRedeSocaisItem{
         display: flex;
@@ -68,8 +75,9 @@ export const ContatoCss = styled.div`
         margin-top: 30px;
     }
     .contatoLadoDireito form{
-        display: grid;
-        width: 500px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
         gap: 15px 0;
         margin-top: 20px;
     }   
@@ -102,5 +110,32 @@ export const ContatoCss = styled.div`
     }
     .formTitulo span{
         color: var(--white);
+    }
+    .formTitulo{ 
+        width: 90%;
+    }
+    @media(max-width: 830px){
+        .contato-bg{
+            max-width: 1200px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contatoLadoEsquerdo{
+            order: 2;
+        }
+        .contatoLadoDireito{
+            order: 1;
+        }
+        .contatoLadoDireito{
+            width: 90%;
+        }
+        .contatoLadoEsquerdo{
+            width: 90%;
+            height: 100%;
+            display: flex;
+        }   
     }
 `;

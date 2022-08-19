@@ -10,7 +10,7 @@ export const ProjetosCss = styled.div`
     padding: 10px;
     h1{
         color: var(--white);
-        margin: 20px 0;
+        margin: 10px 0;
     }
     .projetos-bg{
         max-width: 1200px;
@@ -22,6 +22,7 @@ export const ProjetosCss = styled.div`
         height: 50%;
         display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
     }
     .projetosFrontend h2{
         color: var(--white);
@@ -49,16 +50,23 @@ export const ProjetosCss = styled.div`
         font-size: 14px;
     }
     .ProjetosImg{
-        width: 100%;
+        width: 90%;
         height: 70%;
     }
     .ProjetosImg img{
         width: 100%;
         height: 100%;
     }
-    /* .projetosBackend{
-        width: 100%;
-        height: 50%;
-        background-color: yellow;
-    } */
+
+    @media(max-width: 760px) {
+        .projetosFrontend h2{
+            color: var(--white);
+            margin-bottom: 15px;
+        }   
+        .frontendItems{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px;
+        }
+    }
 `;
