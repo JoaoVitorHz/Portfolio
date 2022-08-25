@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContatoCss = styled.div`
     width: 100vw;
     min-height: 100vh;
-    background-color: #90caf8;
+    background-color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
