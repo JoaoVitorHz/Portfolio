@@ -1,4 +1,6 @@
-import { HeaderCss } from "./headerStyle";
+import { HeaderCss, Dropdown } from "./headerStyle";
+import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
+
 export function Header(){
     return(
         <HeaderCss>
@@ -15,6 +17,21 @@ export function Header(){
                     <a href="">Tecnologias</a>
                     <a href="">Contato</a>
                 </div>
+                <Dropdown>
+                    <DropdownMenu.Root >
+                        <DropdownMenu.DropdownMenuTrigger className="trigger">
+                            <button><i className="fa-solid fa-bars"></i></button>
+                        </DropdownMenu.DropdownMenuTrigger> 
+                        <DropdownMenu.Content>
+                            <DropdownMenu.Group className="group">
+                                <a href="">Sobre min</a>
+                                <a href="">Projetos</a>
+                                <a href="">Tecnologias</a>
+                                <a href="">Contato</a>
+                            </DropdownMenu.Group>
+                        </DropdownMenu.Content>
+                    </DropdownMenu.Root>
+                </Dropdown>
             </header>
         </HeaderCss>
     );
