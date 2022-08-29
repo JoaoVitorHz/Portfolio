@@ -9,7 +9,7 @@ export function Contato() {
                         <h1>Enviar Mensagem</h1>
                         <span>Tá afim de me mandar uma mensagem por email? Escreve ai!</span>
                     </div>
-                    <form action="">
+                    <form name="contact" method="POST" data-netlify="true">
                         <div className="inputs">
                             <span>Nome</span>
                             <input type="text" name="nome" placeholder="Insira aqui o seu Nome..." />
