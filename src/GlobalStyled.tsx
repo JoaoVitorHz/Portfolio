@@ -11,6 +11,7 @@ export default createGlobalStyle`
         --white: #FFF;
     }
     body{
+        width: 100vw;
         overflow-x: hidden;
     }
 `;
