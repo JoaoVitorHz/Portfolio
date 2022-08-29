@@ -4,7 +4,7 @@ export const HeaderCss = styled.div`
     width: 100vw;
     height: 70px;
     padding: 0 15px;
-
+   
     header{
         max-width: 1200px;
         width: 100%;

@@ -28,15 +28,15 @@ export function Projetos(){
                     </div>
                 </div>
                 <div className="projetos projetosBackend">
-                    <h2>Backend</h2> <span>a</span>
+                    <h2>Backend</h2> <span>(Links Apenas GitHub)</span>
                     <div className="projetosItem-bg">
                         <div className="projetosItem">
                             <img src={ContatosMvc} alt="" />
-                            <a>App Contatos </a>
+                            <a href="https://github.com/JoaoVitorHz/ContatosMVC" target="_blank">App Contatos </a>
                         </div>
                         <div className="projetosItem">
                             <img src={Tintas} alt="" />
-                            <a>Tintas</a>
+                            <a href="https://github.com/JoaoVitorHz/Tinta-Area" target="_blank">Tintas</a>
                         </div>
                         <div className="projetosItem embreve">
                             <img src={EmBreve} alt="" />

@@ -20,6 +20,10 @@ export const ProjetosCss = styled.div`
         height: 100%;
     }
     .projetos-bg h2{
+        display: inline;
+        color: var(--white);
+    }
+    .projetos-bg span{
         color: var(--white);
     }
     .projetosItem-bg{
