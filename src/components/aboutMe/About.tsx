@@ -4,7 +4,7 @@ import a from "../../assets/aboutMe/Notebook.png"
 export function About(){
     return(
         <AboutCss>
-            <div className="about-bg">
+            <div id="SobreMinScroll" className="about-bg">
                 <div className="aboutLeftSide">
                     <h1>João Vitor</h1>
                     <h2>Desenvolvedor FullStack</h2>

@@ -10,6 +10,9 @@ export default createGlobalStyle`
         --black: #000;
         --white: #FFF;
     }
+    html{
+        scroll-behavior: smooth;
+    }
     body{
         width: 100vw;
         overflow-x: hidden;

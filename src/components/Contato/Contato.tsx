@@ -3,7 +3,7 @@ import { ContatoCss } from "./ContatoStyle";
 export function Contato() {
     return(
         <ContatoCss>
-            <h1>Contato</h1>
+            <h1 id="ContatoScroll">Contato</h1>
             <div className="contato-bg">
                     <div className="formTitulo">
                         <h1>Enviar Mensagem</h1>

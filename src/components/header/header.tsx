@@ -12,10 +12,10 @@ export function Header(){
                     <a href="https://github.com/JoaoVitorHz" target="_blank" title="GitHub"><i className="fa-brands fa-github"></i></a>
                 </div>
                 <div className="menu">
-                    <a href="">Sobre min</a>
-                    <a href="">Projetos</a>
-                    <a href="">Tecnologias</a>
-                    <a href="">Contato</a>
+                    <a href="#">Sobre min</a>
+                    <a href="#ProjetosScroll">Projetos</a>
+                    <a href="#TecnologiaScroll">Tecnologias</a>
+                    <a href="#ContatoScroll">Contato</a>
                 </div>
                 <Dropdown>
                     <DropdownMenu.Root >
@@ -24,10 +24,10 @@ export function Header(){
                         </DropdownMenu.DropdownMenuTrigger> 
                         <DropdownMenu.Content>
                             <DropdownMenu.Group className="group">
-                                <a href="">Sobre min</a>
-                                <a href="">Projetos</a>
-                                <a href="">Tecnologias</a>
-                                <a href="">Contato</a>
+                                <a href="#">Sobre min</a>
+                                <a href="#ProjetosScroll">Projetos</a>
+                                <a href="#TecnologiaScroll">Tecnologias</a>
+                                <a href="#ContatoScroll">Contato</a>
                             </DropdownMenu.Group>
                         </DropdownMenu.Content>
                     </DropdownMenu.Root>

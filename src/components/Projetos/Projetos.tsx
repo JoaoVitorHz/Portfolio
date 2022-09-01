@@ -9,7 +9,7 @@ import Huddle from "../../assets/projetos/Huddle.png"
 export function Projetos(){
     return(
         <ProjetosCss>
-            <h1>Projetos</h1>
+            <h1 id="ProjetosScroll">Projetos</h1>
             <div className="projetos-bg">
                 <div className="projetos">
                     <h2>Frontend</h2>

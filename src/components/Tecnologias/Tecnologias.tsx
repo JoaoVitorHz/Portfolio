@@ -3,7 +3,7 @@ import { TecnologiasCss } from "./TecnologiasStyle";
 export function Tecnologias(){
     return(
         <TecnologiasCss>
-            <h1>Tecnologias</h1>
+            <h1 id="TecnologiaScroll">Tecnologias</h1>
             <div className="tecnologias-bg">
                 <div className="tecnologiasListaItems">
                     <div className="bola-bg">
