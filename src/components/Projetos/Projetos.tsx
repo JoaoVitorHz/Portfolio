@@ -4,6 +4,7 @@ import ContatosMvc from "../../assets/projetos/ContatosMVC.png"
 import Tintas from "../../assets/projetos/Tintas.png"
 import Shortly from "../../assets/projetos/Shortly.png"
 import EmBreve from "../../assets/projetos/EmBreve.png"
+import Huddle from "../../assets/projetos/Huddle.png"
 
 export function Projetos(){
     return(
@@ -22,8 +23,8 @@ export function Projetos(){
                             <a href="https://whimsical-torrone-53cd31.netlify.app" target="_blank">Um Brinde na Europa</a>
                         </div>
                         <div className="projetosItem embreve">
-                            <img src={EmBreve} alt="" />
-                            <a>Em Breve</a>
+                            <img src={Huddle} alt="" />
+                            <a href="https://dainty-muffin-9dd923.netlify.app/" target="_blank">Huddle</a>
                         </div>
                     </div>
                 </div>
