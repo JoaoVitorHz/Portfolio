@@ -4,6 +4,10 @@ export const HeaderCss = styled.div`
     width: 100vw;
     height: 70px;
     padding: 0 15px;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
    
     header{
         max-width: 1024px;

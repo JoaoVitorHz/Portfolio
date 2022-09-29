@@ -37,7 +37,7 @@ export const AboutCss = styled.div`
     .aboutLeftSide a{
         display: inline-block;
         padding: 10px 20px;
-        background-color:var(--mainColor);
+        background-color: #333;
         color: white;
         border-radius: 5px;
         margin-top: 20px;

@@ -18,4 +18,14 @@ export default createGlobalStyle`
         width: 100vw;
         overflow-x: hidden;
     }
+    ::-webkit-scrollbar{
+        width: 10px;
+        background-color: #CCC;
+    }
+    ::-webkit-scrollbar-button{
+        display: none;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: #333;
+    }
 `;
