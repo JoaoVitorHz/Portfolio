@@ -1,5 +1,6 @@
 import { AboutCss } from "./AboutStyle"
-import a from "../../assets/aboutMe/Notebook.png"
+import hero from "../../assets/aboutMe/HeroImg.png"
+import imgAbout from "../../assets/aboutMe/ImgAbout.png"
 
 export function About(){
     return(
@@ -8,10 +9,13 @@ export function About(){
                 <div className="aboutLeftSide">
                     <h1>João Vitor</h1>
                     <h2>Desenvolvedor FullStack</h2>
-                    <span>Olá me chamo João Vitor, tenho 18 anos, moro em São Paulo, comecei no Desenvolvimento/Programação aos 15 anos em um curso Tecnico de T.I.<br/><br />Tenho quase 4 anos de experiencia, por isso tenho conhecimento com bastantes tecnologias, mas as tecnologias que domino são: PHP, React, Typescript, JavaScript, HTML e CSS.</span>
+                    <span>Alto nivel de experiencia no Desevolvimento Web, com mais de 3 anos de experiencia. Minhas expertises são React, Typescript, HTML, CSS, PHP, entre outros tecnologias... </span>
+                    <div className="baixarCurriculo">
+                        <a href="Curriculo.pdf" download>Baixar Curriculo</a>
+                    </div>
                 </div>
                 <div className="aboutRightSide">
-                    <img src={a} alt="" />
+                    <img src={imgAbout} alt="" />
                 </div>
             </div>
         </AboutCss>

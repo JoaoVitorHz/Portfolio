@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 export const AboutCss = styled.div`
     width: 100vw;
-    min-height: calc(100vh - 70px);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
 
     .about-bg{
-        max-width: 1200px;
+        max-width: 1024px;
         width: 100%;
         height: 100%;
         display: flex;
@@ -26,7 +26,24 @@ export const AboutCss = styled.div`
         line-height: 70px;
     }
     .aboutLeftSide h2{
+        color: #666;
+        font-weight: 500;
         margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .aboutLeftSide span{
+        width: 450px;
+    }
+    .aboutLeftSide a{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color:var(--mainColor);
+        color: white;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
     }
 
     /* About Left Side Styles End */
@@ -50,12 +67,13 @@ export const AboutCss = styled.div`
     }
     @media(max-width: 935px){
         .aboutRightSide img{
-            width: 350px;
+            width: 320px;
         }
     }
     @media(max-width: 915px){
         .aboutLeftSide span{
             font-size: 15px;
+            width: auto;
         }
     }
     @media (max-width: 735px){
@@ -63,13 +81,14 @@ export const AboutCss = styled.div`
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 10px;
         }
         .aboutLeftSide{
+            height: 50%;
             width: 75%;
         }
         .aboutLeftSide span{
             font-size: 15px;
+            text-align: center;
         }
         .aboutLeftSide h1{
             font-size: 45px;
@@ -79,20 +98,30 @@ export const AboutCss = styled.div`
             margin-bottom: 10px;
             text-align: center;
         }
+        .baixarCurriculo{
+            display: flex;
+            justify-content: center;
+        }
         .aboutRightSide{
             width: 50%;
-            height: 100%;
+            height: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
         }
     }
-    @media (max-width: 500px){
+    @media (max-width: 420px){
         .aboutLeftSide h1{
-            font-size: 35px;
+            font-size: 36px;
+            line-height: 50px;
         }
         .aboutLeftSide h2{
-            font-size: 20px;
+            font-size: 18px;
+        }
+    }
+    @media (max-width: 325px){
+        .aboutLeftSide h2{
+            font-size: 16px;
         }
     }
 `;

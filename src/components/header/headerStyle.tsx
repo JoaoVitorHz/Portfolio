@@ -6,7 +6,7 @@ export const HeaderCss = styled.div`
     padding: 0 15px;
    
     header{
-        max-width: 1200px;
+        max-width: 1024px;
         width: 100%;
         height: 100%;
         margin: auto;
@@ -21,7 +21,7 @@ export const HeaderCss = styled.div`
         font-weight: 500;
     }
     .menu a:hover {
-        color: #90caf8;
+        color: var(--mainColor);
         transition: .5s;
     }
     .RedesSociasIcones a{
@@ -30,7 +30,7 @@ export const HeaderCss = styled.div`
         margin: 0 10px;
     }
     .RedesSociasIcones :hover{
-        color: #90caf8;
+        color: var(--mainColor);
         transition: .5s;
     }
     @media (max-width: 735px){
