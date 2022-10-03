@@ -7,7 +7,17 @@ export const TecnologiasCss = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    ::before{
+        content: '';
+        display: block;
+        width: 1024px;
+        height: 2px;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-bottom: 50px;
+    }
     h1{
         margin: 10px 0 70px 0;
     }

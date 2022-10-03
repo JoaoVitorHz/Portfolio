@@ -1,51 +1,26 @@
 import { ProjetosCss } from "./ProjetosStyle"
-import LandiPageReact from "../../assets/projetos/LandingPageReact.png"
-import ContatosMvc from "../../assets/projetos/ContatosMVC.png"
-import Tintas from "../../assets/projetos/Tintas.png"
-import Shortly from "../../assets/projetos/Shortly.png"
-import EmBreve from "../../assets/projetos/EmBreve.png"
-import Huddle from "../../assets/projetos/Huddle.png"
+import { Carousel }  from "./Carousel/Carousel"
+import { CarouselBackend } from "./CarouselBackend/CarouselBackend"
+import Shortly from "../../assets/projetos/ShortlyThumb.jpg"
 
 export function Projetos(){
+
+    const data = [
+        {img: Shortly, nome: "Shortly", descricao: "Qualquer coisa", link: "link"}
+    ]
+
     return(
-        <ProjetosCss>
-            <h1 id="ProjetosScroll">Projetos</h1>
-            <div className="projetos-bg">
-                <div className="projetos">
-                    <h2>Frontend</h2>
-                    <div className="projetosItem-bg">
-                        <div className="projetosItem">
-                            <img src={Shortly} alt="" />
-                            <a href="https://bespoke-biscotti-a22532.netlify.app/" target="_blank">Shortly</a>
-                        </div>
-                        <div className="projetosItem">
-                            <img src={LandiPageReact} alt="" />
-                            <a href="https://whimsical-torrone-53cd31.netlify.app" target="_blank">Um Brinde na Europa</a>
-                        </div>
-                        <div className="projetosItem embreve">
-                            <img src={Huddle} alt="" />
-                            <a href="https://dainty-muffin-9dd923.netlify.app/" target="_blank">Huddle</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="projetos projetosBackend">
-                    <h2>Backend</h2> <span>(Links Apenas GitHub)</span>
-                    <div className="projetosItem-bg">
-                        <div className="projetosItem">
-                            <img src={ContatosMvc} alt="" />
-                            <a href="https://github.com/JoaoVitorHz/ContatosMVC" target="_blank">App Contatos </a>
-                        </div>
-                        <div className="projetosItem">
-                            <img src={Tintas} alt="" />
-                            <a href="https://github.com/JoaoVitorHz/Tinta-Area" target="_blank">Tintas</a>
-                        </div>
-                        <div className="projetosItem embreve">
-                            <img src={EmBreve} alt="" />
-                            <a>Em Breve</a>
-                        </div>
-                    </div>
-                </div>
+        <ProjetosCss id="ProjetosScroll">
+            <h1>Projetos</h1>
+            <span>Projetos mais recentes</span>
+            <div className="tituloCarousel">
+                <h2>Frontend</h2>
             </div>
+           <Carousel/>
+           <div className="tituloCarousel">
+                <h2>Backend</h2>
+            </div>
+            <CarouselBackend />
         </ProjetosCss>
     )
 }

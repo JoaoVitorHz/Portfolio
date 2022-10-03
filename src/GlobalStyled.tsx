@@ -28,4 +28,7 @@ export default createGlobalStyle`
     ::-webkit-scrollbar-thumb{
         background-color: #333;
     }
+
+
+    
 `;

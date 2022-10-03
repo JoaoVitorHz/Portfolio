@@ -5,9 +5,10 @@ export const AboutCss = styled.div`
     height: 100vh;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding: 15px;
-
+    
     .about-bg{
         max-width: 1024px;
         width: 100%;
