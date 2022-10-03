@@ -10,6 +10,7 @@ export function Contato() {
                         <span>Tá afim de me mandar uma mensagem por email? Escreve ai!</span>
                     </div>
                     <form action="https://formsubmit.co/vitorjoao39207@gmail.com" method="POST">
+                        <input type="hidden" name="_next" value="https://statuesque-crepe-cd6310.netlify.app" />
                         <div className="inputs">
                             <span>Nome</span>
                             <input type="text" name="nome" placeholder="Insira aqui o seu Nome..." />

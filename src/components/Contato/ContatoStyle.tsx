@@ -3,15 +3,24 @@ import styled from "styled-components";
 export const ContatoCss = styled.div`
     width: 100vw;
     height: 100vh;
-    background-color: #333;
+    background-color: #FFF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0px;
 
+    ::before{
+        content: '';
+        display: block;
+        width: 1024px;
+        height: 2px;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-bottom: 50px;
+    }
+
     h1{
-        color: var(--white);
+        color: var(--black);
         margin: 10px 0 0 0;
     }
     .formTitulo span{
@@ -34,7 +43,7 @@ export const ContatoCss = styled.div`
         align-items: center;
     }
     .formTitulo span{
-        color: var(--white);
+        color: var(--black);
     }
 
     form{
@@ -52,22 +61,25 @@ export const ContatoCss = styled.div`
         width: 100%;
         padding: 10px;
         border-radius: 5px;
+        border: 1px solid #000;
     }
     form textarea{
         padding: 10px;
         border-radius: 5px;
         height: 100px;
+        border: 1px solid #000;
     }
     form button{
         width: 100%;
         padding: 10px;
         border-radius: 5px;
-        background-color: #ffffff;
         box-shadow: 0 0 5px rgba(255, 255, 255, 1);
+        border: 1px solid #000;
+        background-color: #FFF;
         cursor: pointer;
 
         &:hover{
-            background-color: #aaa;
+            background-color: #EEE;
             transition: .5s;
         }
     }
@@ -77,7 +89,7 @@ export const ContatoCss = styled.div`
         flex-direction: column;
     }
     .inputs span{
-        color: #FFFFFF;
+        color: var(--black);
     }
    
     @media(max-width: 830px){
