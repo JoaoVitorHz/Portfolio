@@ -85,16 +85,17 @@ export const CarouselCss = styled.div`
   .swiper {
     width: 400px;
   }
+ 
+}
+@media (max-width: 400px){
+  .swiper {
+    width: 350px;
+  }
   .swiper-button-prev::after,
   .swiper-button-next::after {
     display: none;
     color: #000;
     font-size: 32px;
-  }
-}
-@media (max-width: 400px){
-  .swiper {
-    width: 350px;
   }
 }
 `;
