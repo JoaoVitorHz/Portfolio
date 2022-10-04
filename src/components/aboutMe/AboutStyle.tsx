@@ -8,7 +8,7 @@ export const AboutCss = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 15px;
-    
+
     .about-bg{
         max-width: 1024px;
         width: 100%;
@@ -79,10 +79,12 @@ export const AboutCss = styled.div`
         }
     }
     @media (max-width: 735px){
+        height: 120vh;
         .about-bg{
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin-top: 20px;
         }
         .aboutLeftSide{
             height: 50%;
@@ -113,6 +115,9 @@ export const AboutCss = styled.div`
         }
     }
     @media (max-width: 420px){
+        .about-bg{
+            margin-top: 40px;
+        }
         .aboutLeftSide h1{
             font-size: 36px;
             line-height: 50px;
@@ -125,5 +130,17 @@ export const AboutCss = styled.div`
         .aboutLeftSide h2{
             font-size: 16px;
         }
+    }
+    @media (max-width: 293px){
+        .about-bg{
+            margin-top: 60px;
+        }
+        .aboutLeftSide h2{
+            font-size: 16px;
+        }
+        .aboutLeftSide a{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
     }
 `;
