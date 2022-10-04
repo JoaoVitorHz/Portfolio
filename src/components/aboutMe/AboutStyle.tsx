@@ -79,15 +79,15 @@ export const AboutCss = styled.div`
         }
     }
     @media (max-width: 735px){
-        height: 120vh;
+        height: 110vh;
         .about-bg{
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 20px;
+            margin-top: 80px;
         }
         .aboutLeftSide{
-            height: 50%;
+            height: 40%;
             width: 75%;
         }
         .aboutLeftSide span{
@@ -112,11 +112,12 @@ export const AboutCss = styled.div`
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-top: 20px;
         }
     }
     @media (max-width: 420px){
         .about-bg{
-            margin-top: 40px;
+            margin-top: 100px;
         }
         .aboutLeftSide h1{
             font-size: 36px;
@@ -127,6 +128,9 @@ export const AboutCss = styled.div`
         }
     }
     @media (max-width: 325px){
+        .about-bg{
+            margin-top: 150px;
+        }
         .aboutLeftSide h2{
             font-size: 16px;
         }
