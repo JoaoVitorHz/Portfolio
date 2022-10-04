@@ -46,7 +46,7 @@ export const CarouselCss = styled.div`
 }
 
 .swiper {
-  width: 1204px;
+  width: 1024px;
   height: 400px;
 }
 .swiper-slide {
@@ -69,5 +69,32 @@ export const CarouselCss = styled.div`
 .swiper-button-next::after {
     color: #000;
     font-size: 32px;
+}
+
+@media (max-width: 1030px){
+  .swiper {
+    width: 800px;
+  }
+}
+@media (max-width: 800px){
+  .swiper {
+    width: 700px;
+  }
+}
+@media (max-width: 700px){
+  .swiper {
+    width: 400px;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    display: none;
+    color: #000;
+    font-size: 32px;
+  }
+}
+@media (max-width: 400px){
+  .swiper {
+    width: 350px;
+  }
 }
 `;

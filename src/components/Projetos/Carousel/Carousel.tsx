@@ -19,9 +19,9 @@ export function Carousel() {
   return (
     <CarouselCss>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={0}
         spaceBetween={-20}
-        slidesPerGroup={3}
+        slidesPerGroup={0}
         loop={true}
         loopFillGroupWithBlank={true}
         pagination={{
@@ -30,6 +30,20 @@ export function Carousel() {
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+          },
+          720: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+          1030: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+          }
+        }}
       >
         <SwiperSlide>
             <div className="carouselItem">
