@@ -1,12 +1,17 @@
 import { AboutCss } from "./AboutStyle"
-import hero from "../../assets/aboutMe/HeroImg.png"
 import imgAbout from "../../assets/aboutMe/ImgAbout.png"
-import curriculo from "Curriculo.pdf"
+import AOS from 'aos'
+import { useEffect } from "react"
+
 
 export function About(){
+    useEffect(() => {
+        AOS.init({duration: 1000});
+    }, []);
+    
     return(
         <AboutCss>
-            <div id="SobreMinScroll" className="about-bg">
+            <div id="SobreMinScroll" className="about-bg" data-aos="fade-up">
                 <div className="aboutLeftSide">
                     <h1>João Vitor</h1>
                     <h2>Desenvolvedor FullStack</h2>

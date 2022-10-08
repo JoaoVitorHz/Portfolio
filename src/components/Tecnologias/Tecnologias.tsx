@@ -1,10 +1,12 @@
 import { TecnologiasCss } from "./TecnologiasStyle";
+import 'aos/dist/aos.css';
 
 export function Tecnologias(){
+
     return(
         <TecnologiasCss>
             <h1 id="TecnologiaScroll">Tecnologias</h1>
-            <div className="tecnologias-bg">
+            <div className="tecnologias-bg" data-aos="fade-up">
                 <div className="tecnologiasListaItems">
                     <div className="bola-bg">
                         <div className="bola">
