@@ -4,7 +4,7 @@ export function Contato() {
     return(
         <ContatoCss>
             <h1 id="ContatoScroll">Contato</h1>
-            <div className="contato-bg">
+            <div className="contato-bg" data-aos="fade-down">
                     <div className="formTitulo">
                         <h1>Enviar Mensagem</h1>
                         <span>Tá afim de me mandar uma mensagem por email? Escreve ai!</span>
@@ -13,15 +13,15 @@ export function Contato() {
                         <input type="hidden" name="_next" value="https://statuesque-crepe-cd6310.netlify.app" />
                         <div className="inputs">
                             <span>Nome</span>
-                            <input type="text" name="nome" placeholder="Insira aqui o seu Nome..." />
+                            <input type="text" name="nome" placeholder="Insira aqui o seu Nome..." required />
                         </div>
                         <div className="inputs">
                             <span>Email</span>                     
-                            <input type="email" name="email" placeholder="Insira aqui o seu email..." />    
+                            <input type="email" name="email" placeholder="Insira aqui o seu email..." required/>    
                         </div>
                         <div className="inputs">
                             <span>Mensagem</span>
-                            <textarea name="Mensagem" placeholder="Insira aqui sua Mensagem..."></textarea>     
+                            <textarea name="Mensagem" placeholder="Insira aqui sua Mensagem..." required></textarea>     
                          </div>
                         
                         <button type="submit">Enviar Mensagem</button>              
