@@ -15,7 +15,7 @@ export function About(){
                 <div className="aboutLeftSide">
                     <h1>João Vitor</h1>
                     <h2>Desenvolvedor FullStack</h2>
-                    <span>Alto nivel de experiencia no Desevolvimento Web, com mais de 3 anos de experiencia. Minhas expertises são React, Typescript, HTML, CSS, PHP, entre outras tecnologias... </span>
+                    <span>Sou um programador com mais de 4 anos de experiência. Atualmente trabalho para uma empresa que atual em mais de 10 países na América do Sul e Europa. Estou sempre concentrado na Experiência do Usuário e performance para atingir altos níveis de qualidade. </span>
                     <div className="baixarCurriculo">
                         <a href="#ContatoScroll">Entre em Contato</a>
                     </div>
