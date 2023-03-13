@@ -14,6 +14,7 @@ import { Pagination, Navigation } from "swiper";
 import Shortly from "../../../assets/projetos/ShortlyThumb.jpg"
 import BrindeEuropa from "../../../assets/projetos/BrindeEuropaThumb.jpg"
 import Hunddle from "../../../assets/projetos/HuddleThumb.jpg"
+import EmBreve from "../../../assets/projetos/EmBreve.png"
 
 export function Carousel() {
   return (
@@ -22,7 +23,7 @@ export function Carousel() {
         slidesPerView={0}
         spaceBetween={-20}
         slidesPerGroup={0}
-        loop={true}
+        loop={false}
         loopFillGroupWithBlank={true}
         pagination={{
           clickable: true,
@@ -75,6 +76,17 @@ export function Carousel() {
                 </div>
             </div>
         </SwiperSlide>
+        <SwiperSlide>
+            <div className="carouselItem">
+                  <img src={EmBreve} alt="" />
+                <div className="carouselItemText">
+                    <span className="nomeItemCarousel">MoviesApp</span>
+                    <span className="descriptionItemCarousel">Quer saber quais filmes estão em cartaz no cinema? Da uma conferida nesse projeto</span>                
+                    <a href="https://extraordinary-froyo-c2ed82.netlify.app/" target="_blank">Acessar <i className="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </SwiperSlide>
+
 
       </Swiper>
     </CarouselCss>

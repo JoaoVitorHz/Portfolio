@@ -8,14 +8,13 @@ export const CarouselCss = styled.div`
   align-items: center;
 }
 .carouselItem img{
-  background-color: purple;
+  background-color: #aaa;
   width: 240px;
   height: 140px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
 .carouselImg a{
-  background-color: yellow;
   font-size: 14px;
 }
 .nomeItemCarousel{
