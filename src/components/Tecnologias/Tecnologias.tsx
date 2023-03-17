@@ -18,11 +18,11 @@ export function Tecnologias(){
                     </div>
                     <div className="tecnologiaLista">
                         <ul>
-                            <li><i className="fa-solid fa-check"></i>React</li>
-                            <li><i className="fa-solid fa-check"></i>Typescrip</li>
+                            <li><i className="fa-solid fa-check"></i>React.Js</li>
+                            <li><i className="fa-solid fa-check"></i>Typescript</li>
                             <li><i className="fa-solid fa-check"></i>Radix Ui</li>
                             <li><i className="fa-solid fa-check"></i>JavaScript</li>
-                            <li><i className="fa-solid fa-check"></i>HTMl</li>
+                            <li><i className="fa-solid fa-check"></i>HTML</li>
                             <li><i className="fa-solid fa-check"></i>CSS</li>
                             <li><i className="fa-solid fa-check"></i>Bootstrap</li>
                         </ul>
@@ -40,6 +40,8 @@ export function Tecnologias(){
                     <div className="tecnologiaLista">
                         <ul>
                             <li><i className="fa-solid fa-check"></i>PHP</li>
+                            <li><i className="fa-solid fa-check"></i>Node.Js</li>
+                            <li><i className="fa-solid fa-check"></i>Java</li>
                             <li><i className="fa-solid fa-check"></i>MySql</li>
                             <li><i className="fa-solid fa-check"></i>MVC</li>
                             <li><i className="fa-solid fa-check"></i>POO</li>

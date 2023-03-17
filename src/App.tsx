@@ -4,6 +4,7 @@ import { About } from "./components/aboutMe/About"
 import { Projetos } from "./components/Projetos/Projetos"
 import { Tecnologias } from "./components/Tecnologias/Tecnologias"
 import { Contato } from "./components/Contato/Contato"
+import { Teste } from "./components/ProjetoTeste/teste"
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <GlobalStyled />
       <Header />
       <About />
-      <Projetos />
+      {/* <Projetos /> */}
+      <Teste/>
       <Tecnologias />
       <Contato /> 
     </>
