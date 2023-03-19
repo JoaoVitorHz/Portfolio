@@ -2,24 +2,32 @@ import styled from "styled-components";
 
 export const TecnologiasCss = styled.div`
     width: 100vw;
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 100px;
 
-    ::before{
-        content: '';
-        display: block;
-        width: 1024px;
-        height: 2px;
-        background-color: rgba(0, 0, 0, 0.4);
-        margin-bottom: 50px;
+
+    .header-tecnologias{
+        max-width: 1200px;
+        width: 100%;
     }
-    h1{
-        margin: 10px 0 70px 0;
+
+    .header-tecnologias span{
+        color: #147efb;
+        font-size: 17px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .header-tecnologias h1{
+        color: #2d2e32;
+        font-size: 25px;
+        margin-bottom: 50px;
     }
     .tecnologias-bg{
         max-width: 1200px;
@@ -54,7 +62,6 @@ export const TecnologiasCss = styled.div`
         margin: 10px 0;
     }
     .tecnologiaLista ul li i{
-        color: green;
         margin-right: 10px;
     }
     .bola-bg{
@@ -62,12 +69,13 @@ export const TecnologiasCss = styled.div`
         height: 50px;
         display: flex;
         justify-content: center;
+        margin-top: 100px;
     }
     .bola{
         width: 100px;
         height: 100px;
         border-radius: 50%;
-        background-color: #333;
+        background-color: #147efb;
         transform: translateY(-50%);
         display: flex;
         justify-content: center;

@@ -7,51 +7,65 @@ export const TesteCss = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 10px;
-
-    ::before{
-    content: '';
-    display: block;
-    width: 1024px;
-    height: 2px;
-    background-color: rgba(0, 0, 0, 0.4);
-    margin-bottom: 50px;
-    }
+    background-color: #f9f9f9;
 
     .teste-bg{
         max-width: 1024px;
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 100px;
-        margin-top: 50px;
+        margin: 150px 0;
+
+    }
+    .header-projects{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-projects span{
+        color: #147efb;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .header-projects h3{
+        color: #2d2e32;
+        font-size: 25px;
+        margin-bottom: 60px;
     }
 
-    .projeto-container{
-        width: 100%;
+    .project-container{
         display: flex;
+        flex-direction: column;
         gap: 50px;
-        justify-content: space-between;
     }
 
-    .projeto-item-esquerda,
-    .projeto-item-direita{
-        width: 50%;
-    }
-
-    .projeto-item-esquerda{
+    .projeto-content{
+        width: 100%;
+        height: 400px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFF;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .invertPosition{
+        flex-direction: row-reverse;
     }
 
     .projeto-item-image{
-        width: 100%;
+        display: flex;
+        align-items: center;
     }
     .projeto-item-image img{
-        width: 100%;
+        width: 530px;
         border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     }
     .projeto-item-image:hover {
-        transform: scale(1.06);
+        transform: scale(1.02);
         transition: 300ms;
     }
 
@@ -62,10 +76,59 @@ export const TesteCss = styled.div`
         margin-bottom: 20px;
     }
     .projeto-item-texto{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .project-info-title{
+        margin-bottom: 20px;
+    }
+    .project-info-title span{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 17px;
+    }
+    .project-info-desc{
+        text-align: center;
+        width: 80%;
+    }
+    .project-info-desc span{
+        color: #767676;
+        font-size: 17px;
+        font-weight: 500;
         text-align: center;
     }
-    .projeto-item-texto ul{
-        width: 100%;
+
+    .project-info-links{
+        margin-top: 30px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+    .project-info-links a{
+        text-decoration: none;
+        color: #2d2e32;
+        font-weight: 500;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .project-info-links :first-child:hover {
+        color: #147efb;
+        transition: 300ms;
+    }
+    .project-info-links :last-child:hover {
+        color: #147efb;
+        transition: 300ms;
+    }
+
+    .project-info-links .fa-github{
+        font-size: 28px;
+    }
+    .fa-up-right-from-square{
+        font-size: 20px !important;
     }
     
 `;

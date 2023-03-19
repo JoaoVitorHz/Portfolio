@@ -8,143 +8,110 @@ export const AboutCss = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 15px;
+    background-color: #f9f9f9;
 
-    .about-bg{
+    /* Container */
+    
+    .about-container{
         max-width: 1024px;
         width: 100%;
         height: 100%;
+        margin-top: 200px;
+    }
+    .about-content{
         display: flex;
-    }
-    .aboutLeftSide{
-        width: 50%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .aboutLeftSide h1{
-        font-size: 55px;
-        line-height: 70px;
-    }
-    .aboutLeftSide h2{
-        color: #666;
-        font-weight: 500;
-        margin-bottom: 10px;
-        font-size: 22px;
-    }
-    .aboutLeftSide span{
-        width: 450px;
-    }
-    .aboutLeftSide a{
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #333;
-        color: white;
-        border-radius: 5px;
-        margin-top: 20px;
-        font-weight: 500;
-        font-size: 16px;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-    /* About Left Side Styles End */
-
-    /* About Right Side Styles */
-
-    .aboutRightSide{
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-end;
         align-items: center;
+        width: 100%;
     }
-    .aboutRightSide img{
+
+    /* Title, Desc and Links Content */
+
+    .about-info h1{
+        color: #2d2e32;
+        font-size: 55px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        margin-top: 20px;
         width: 500px;
     }
-    @media(max-width: 1060px){
-        .aboutRightSide img{
-            width: 450px;
-        }
+    .about-info h1 img{
+        position: relative;
+        width: 60px;
+        vertical-align: middle;
     }
-    @media(max-width: 935px){
-        .aboutRightSide img{
-            width: 320px;
-        }
+    .about-info span{
+        width: 500px;
+        display: block;
+
+        color: #767676;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.6;
     }
-    @media(max-width: 915px){
-        .aboutLeftSide span{
-            font-size: 15px;
-            width: auto;
-        }
+    .about-links{
+        width: 500px;
+        display: flex;
+        gap: 20px;
+        margin-top: 25px;
     }
-    @media (max-width: 735px){
-        height: 110vh;
-        .about-bg{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 80px;
-        }
-        .aboutLeftSide{
-            height: 40%;
-            width: 75%;
-        }
-        .aboutLeftSide span{
-            font-size: 15px;
-            text-align: center;
-        }
-        .aboutLeftSide h1{
-            font-size: 45px;
-            text-align: center;
-        }
-        .aboutLeftSide h2{
-            margin-bottom: 10px;
-            text-align: center;
-        }
-        .baixarCurriculo{
-            display: flex;
-            justify-content: center;
-        }
-        .aboutRightSide{
-            width: 50%;
-            height: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 20px;
-        }
+    .about-links a{
+        text-decoration: none;
+        color: #2d2e32;
+        font-size: 28px;
     }
-    @media (max-width: 420px){
-        .about-bg{
-            margin-top: 100px;
-        }
-        .aboutLeftSide h1{
-            font-size: 36px;
-            line-height: 50px;
-        }
-        .aboutLeftSide h2{
-            font-size: 18px;
-        }
+    .about-links a:hover{
+        color: #147efb;
+        transition: 300ms;
     }
-    @media (max-width: 325px){
-        .about-bg{
-            margin-top: 150px;
-        }
-        .aboutLeftSide h2{
-            font-size: 16px;
-        }
+
+    /* Image Session */
+
+    .about-image{
+        display: flex;
+        justify-content: center;
+        width: 50%;
     }
-    @media (max-width: 293px){
-        .about-bg{
-            margin-top: 60px;
-        }
-        .aboutLeftSide h2{
-            font-size: 16px;
-        }
-        .aboutLeftSide a{
-        padding: 10px 15px;
-        font-size: 14px;
+
+    .about-image img{
+        width: 350px;
+        height: 350px;
     }
+
+    /* Technology sesssion*/
+
+    .about-technology{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .about-technology span{
+        border-right: 2px solid rgba(45,46,50,.5);
+        color: #2d2e32;
+        font-weight: 600;
+        margin-right: 70px;
+        padding-right: 20px;
+    }
+    .about-technology-itens{
+        display: flex;
+        gap: 25px;
+    }
+    .about-technology-itens div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 65px;
+        height: 65px;
+        background-color: #FFF;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+    .about-technology-itens div:hover{
+        transform: scale(1.3);
+        transition: 100ms;
+    }
+    .about-technology-itens div img{
+        width: 34px;
     }
 `;

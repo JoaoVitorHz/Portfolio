@@ -2,27 +2,33 @@ import styled from "styled-components";
 
 export const HeaderCss = styled.div`
     width: 100vw;
-    height: 70px;
+    height: 90px;
     padding: 0 15px;
     position: fixed;
     z-index: 10;
     background-color: white;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    
     header{
-        max-width: 1024px;
-        width: 100%;
+        width: 90%;
         height: 100%;
         margin: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
+    .logo span{
+        font-size: 23px;
+        font-weight: 700;
+        color: #2d2e32;
+    }
     .menu a{
         text-decoration: none;
         color: var(--black);
         margin: 0 15px;
-        font-weight: 500;
+        font-weight: 600;
+        font-size: 17px;
     }
     .menu a:hover {
         color: var(--mainColor);

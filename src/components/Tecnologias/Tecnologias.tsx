@@ -5,7 +5,10 @@ export function Tecnologias(){
 
     return(
         <TecnologiasCss>
-            <h1 id="TecnologiaScroll">Tecnologias</h1>
+            <div className="header-tecnologias">
+                <span>Tecnologia</span>
+                <h1 id="TecnologiaScroll">Todas as Tecnologias que domino 🧐</h1>
+            </div>
             <div className="tecnologias-bg" data-aos="fade-up">
                 <div className="tecnologiasListaItems">
                     <div className="bola-bg">

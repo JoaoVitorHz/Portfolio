@@ -3,29 +3,32 @@ import { ContatoCss } from "./ContatoStyle";
 export function Contato() {
     return(
         <ContatoCss>
-            <h1 id="ContatoScroll">Contato</h1>
             <div className="contato-bg" data-aos="fade-down">
-                    <div className="formTitulo">
-                        <h1>Enviar Mensagem</h1>
-                        <span>Tá afim de me mandar uma mensagem por email? Escreve ai!</span>
+                <span>Contato</span>
+                <h3>Não seja tímido! Entre em contado comigo! 👇</h3>
+
+                <div className="contato-content">
+                    <div className="contato-intem">
+                        <div className="contato-container-icon">
+                            <i className="fa-solid fa-square-phone"></i>
+                        </div>
+                        <div className="contato-container-texto">
+                            <h6>Location</h6>
+                            <span className="contato-subtitulo">+55 (11) 99818-8091</span>
+                        </div>
                     </div>
-                    <form action="https://formsubmit.co/vitorjoao39207@gmail.com" method="POST">
-                        <input type="hidden" name="_next" value="https://statuesque-crepe-cd6310.netlify.app" />
-                        <div className="inputs">
-                            <span>Nome</span>
-                            <input type="text" name="nome" placeholder="Insira aqui o seu Nome..." required />
+
+                    <div className="contato-intem">
+                        <div className="contato-container-icon">
+                            <i className="fa-solid fa-envelope-open-text"></i>
                         </div>
-                        <div className="inputs">
-                            <span>Email</span>                     
-                            <input type="email" name="email" placeholder="Insira aqui o seu email..." required/>    
+                        <div className="contato-container-texto">
+                            <h6>Email</h6>
+                            <span className="contato-subtitulo">vitorjoao39207@gmail.com</span>
                         </div>
-                        <div className="inputs">
-                            <span>Mensagem</span>
-                            <textarea name="Mensagem" placeholder="Insira aqui sua Mensagem..." required></textarea>     
-                         </div>
-                        
-                        <button type="submit">Enviar Mensagem</button>              
-                    </form>
+                    </div>
+                </div>
+
             </div>
         </ContatoCss>
     )
