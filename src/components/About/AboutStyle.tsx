@@ -15,6 +15,7 @@ export const AboutTesteCss = styled.div`
         width: 100%;
         height: 100%;
         display: flex;
+        gap: 50px;
     }
 
     .about-image,
@@ -56,8 +57,40 @@ export const AboutTesteCss = styled.div`
         font-size: 17px;
         font-weight: 400;
         line-height: 1.5;
+        margin: 10px;
     }
     .about-info p a{
         color: #147efb;
+    }
+
+
+    @media (max-width: 1368px){
+        .about-container{
+            gap: 50px;
+        }
+
+        .about-image{
+            justify-content: flex-end;
+        }
+
+        .about-image img{
+            width: 400px;
+            height: 350px;
+        }
+
+        .about-info span{
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+
+        .about-info h3{
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+        .about-info p{
+            font-size: 15px;
+            margin: 5px;
+        }
     }
 `;

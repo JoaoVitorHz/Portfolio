@@ -59,4 +59,11 @@ export const ContatoCss = styled.div`
         font-weight: 400;
         text-transform: none;
     }
+
+    @media (max-width: 1368px){
+        height: 40vh;
+
+
+    }
+
 `;

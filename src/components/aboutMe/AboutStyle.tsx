@@ -114,4 +114,20 @@ export const AboutCss = styled.div`
     .about-technology-itens div img{
         width: 34px;
     }
+
+    @media (max-width: 1368px){
+
+    .about-container{
+        margin-top: 100px;
+    }
+
+    .about-technology{
+        margin-top: 50px;
+    }
+
+
+
+
+
+    }
 `;
