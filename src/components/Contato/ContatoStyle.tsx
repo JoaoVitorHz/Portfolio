@@ -62,6 +62,34 @@ export const ContatoCss = styled.div`
 
     @media (max-width: 1368px){
         height: 40vh;
+    }
+
+    @media (max-width: 1024px) and (max-height: 768px){
+        padding: 20px;
+    }
+
+    @media (max-width: 800px) and (max-height: 600px){
+
+        .contato-bg span{
+            font-size: 15px;
+        }
+        .contato-bg h3{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .contato-container-icon{
+            width: 40px;
+            height: 40px;
+        }
+        .contato-container-icon i{
+            font-size: 20px;
+        }
+        .contato-container-texto h6{
+            font-size: 15px;
+        }
+        .contato-container-texto span{
+            font-size: 15px;
+        }
 
 
     }

@@ -117,17 +117,71 @@ export const AboutCss = styled.div`
 
     @media (max-width: 1368px){
 
-    .about-container{
-        margin-top: 100px;
-    }
+        .about-container{
+            margin-top: 100px;
+        }
 
-    .about-technology{
-        margin-top: 50px;
-    }
-
-
-
-
+        .about-technology{
+            margin-top: 50px;
+        }
 
     }
+
+    @media (max-width: 1280px) and (max-height: 720px){
+
+        .about-technology{
+            margin-bottom: 50px;
+        }
+
+    }
+    @media (max-width: 1280px) and (max-height: 600px){
+        height: 130vh;
+
+        .about-info h1{
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+    }
+
+    @media (max-width: 800px) and (max-height: 600px){
+
+        .about-container{
+            max-width: none;
+        }
+        .about-content{
+            display: flex;
+        }
+
+        .about-info{
+            width: 40%;
+        }
+        .about-info h1{
+            font-size: 30px;
+            width: 320px;
+        }
+        .about-info h1 img{
+            width: 40px;
+        }
+        .about-info span{
+            width: 350px;
+            font-size: 18px;
+        }
+        .about-image img{
+            width: 250px;
+            height: 250px;
+        }
+
+        .about-technology-itens{
+            gap: 15px;
+        }
+        .about-technology-itens div{
+            width: 45px;
+            height: 45px;
+        }
+        .about-technology-itens div img{
+            width: 25px;
+        }
+    }
+
 `;

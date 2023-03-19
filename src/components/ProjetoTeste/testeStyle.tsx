@@ -131,4 +131,40 @@ export const TesteCss = styled.div`
         font-size: 20px !important;
     }
     
+    @media (max-width: 800px) and (max-height: 600px){
+
+        .project-container{
+            align-items: center;
+            gap: 30px;
+        }
+
+        .projeto-content{
+            width: 95%;
+            height: 350px;
+            padding: 20px;
+        }
+
+
+        .projeto-item-image img{
+            width: 370px;
+        }
+
+        .project-info-title span{
+            font-size: 17px;
+        }
+        .project-info-desc{
+            text-align: center;
+            width: 80%;
+        }
+        .project-info-desc span{
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .project-info-links a{
+            font-size: 14px;
+            gap: 10px;
+        }
+    }
+
 `;

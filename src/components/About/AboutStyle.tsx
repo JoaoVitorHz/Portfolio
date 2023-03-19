@@ -93,4 +93,63 @@ export const AboutTesteCss = styled.div`
             margin: 5px;
         }
     }
+
+    @media (max-width: 1280px) and (max-height: 600px){
+
+        .about-image img{
+            width: 320px;
+            height: 270px;
+        }
+
+        .about-info span{
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+
+        .about-info h3{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    
+        .about-info p{
+            font-size: 12px;
+            margin: 5px;
+        }
+
+    }
+
+    @media (max-width: 800px) and (max-height: 600px){
+        
+
+        .about-container{
+            max-width: none;
+            justify-content: center;
+        }
+
+        .about-image,
+        .about-info{
+            width: 40%;
+            height: 100%;
+        }
+        .about-image img{
+            width: 320px;
+            height: 270px;
+        }
+
+        .about-info span{
+            font-size: 14px;
+            margin-bottom: 0px;
+        }
+
+        .about-info h3{
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    
+        .about-info p{
+            font-size: 10px;
+        }
+    }
+
+
 `;
