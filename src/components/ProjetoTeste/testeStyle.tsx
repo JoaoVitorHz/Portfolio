@@ -167,4 +167,33 @@ export const TesteCss = styled.div`
         }
     }
 
+     @media (max-width: 768px){
+        .projeto-content{
+            height: auto;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .header-projects{
+            align-items: center;
+        }
+        .header-projects span{
+            font-size: 17px;
+        }
+        .header-projects h3{
+            font-size: 24px;
+            margin-bottom: 40px;
+            width: 300px;
+        }
+
+
+        .projeto-item-image img{
+            width: 100%;
+        }
+        .teste-bg{
+            margin: 100px 0;
+        }
+    }
+
+
 `;

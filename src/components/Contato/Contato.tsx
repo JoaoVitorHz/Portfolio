@@ -3,7 +3,7 @@ import { ContatoCss } from "./ContatoStyle";
 export function Contato() {
     return(
         <ContatoCss>
-            <div className="contato-bg" data-aos="fade-down">
+            <div id="ContatoScroll" className="contato-bg" data-aos="fade-down">
                 <span>Contato</span>
                 <h3>Não seja tímido! Entre em contado comigo! 👇</h3>
 

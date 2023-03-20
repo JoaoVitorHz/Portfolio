@@ -184,4 +184,58 @@ export const AboutCss = styled.div`
         }
     }
 
+        /* Resposividade mobile */
+
+    @media (max-width: 768px){
+        min-height: 100vh;
+        height: auto;
+
+        /* Titulo e imagem */
+        .about-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .about-info {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-links{
+            width: 270px;
+        }
+
+
+        .about-info h1{
+            font-size: 30px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            width: 300px;
+        }
+        .about-info span{
+            width: 300px;
+        }
+
+        /* Tecnologias */
+        .about-technology-itens{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .about-technology{
+            flex-direction: column;
+        }
+        .about-technology span{
+            border-right: 0;
+            margin-right: 0px;
+            padding-right: 0px;
+            margin: 30px 0 30px 0;
+        }
+    }
+
+
+
 `;

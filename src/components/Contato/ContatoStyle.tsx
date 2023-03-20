@@ -90,7 +90,25 @@ export const ContatoCss = styled.div`
         .contato-container-texto span{
             font-size: 15px;
         }
+    }
 
+    @media (max-width: 768px){
+        min-height: 65vh;
+        height: auto;
+
+        .contato-bg{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }   
+        .contato-bg h3{
+            margin: 20px 0 50px 0;
+            width: 300px;
+        }
+
+        .contato-content{
+            flex-direction: column;
+        }
 
     }
 

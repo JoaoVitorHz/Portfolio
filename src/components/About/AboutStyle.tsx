@@ -7,7 +7,6 @@ export const AboutTesteCss = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #FFF;
-
     /* Container */
     
     .about-container{
@@ -151,5 +150,44 @@ export const AboutTesteCss = styled.div`
         }
     }
 
+
+    @media (max-width: 768px){
+        min-height: 70vh;
+        height: auto;
+
+        .about-container{
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        .about-image,
+        .about-info{
+            width: 100%;
+        }
+        .about-image{
+            justify-content: center;
+        }
+        .about-image img{
+            width: 200px;
+            height: 150px;
+        }
+
+        .about-info{
+            align-items: center;
+        }
+        .about-info span{
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+        .about-info h3{
+            font-size: 26px;
+            margin-bottom: 20px;
+            width: 320px;
+        }
+        .about-info p{
+            font-size: 17px;
+            width: 320px;
+        }
+    }
 
 `;
