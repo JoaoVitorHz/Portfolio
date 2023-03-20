@@ -20,7 +20,7 @@ export function Teste() {
     const dataProject: Array<Data> = [
         {titulo: "Shortly", link: "https://bespoke-biscotti-a22532.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: Shortly, desc:"Uma das primeiras landing Pages que crei para mostrar minhas habilidades com React, Typescript, Styled-Components, Radix Ui e HTML. Achei o Layout em site chamado FrontendMentor onde tem muitos layouts criados por alguns Ui/Ux's"},
 
-        {titulo: "MoviesApp ", link: "https://extraordinary-froyo-c2ed82.netlify.app/", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: MoviesApp, desc:"Querendo ir no cinema, mas não quias são os filmes que estão em Cartaz no cinema? Nesse sistema que fiz ele te informar quais são os filmes que estão em Cartaz no cinema. Para fazer essa aplicação usei React, Typescript, Styled-Components, Javascript, HTML, CSS e a API do pessoal do The Movie Database"},
+        {titulo: "MoviesApp ", link: "https://extraordinary-froyo-c2ed82.netlify.app/", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: MoviesApp, desc:"Querendo ir no cinema mas não sabe oque assitir? Nesse sistema que fiz ele te informar quais são os filmes que estão em Cartaz no cinema. Para fazer essa aplicação usei React, Typescript, Styled-Components, Javascript, HTML, CSS e a API do pessoal do The Movie Database"},
      
         {titulo: "Hunddle", link: "https://dainty-muffin-9dd923.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: Hunddle, desc:"Essa aplicação foi feita utilizando React, Typescript, Styled-Components, Radix Ui, HTML e CSS. Peguei o Desing do site em um site chamado FrontendMentor."},
 
