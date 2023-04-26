@@ -18,13 +18,13 @@ interface Data {
 export function Teste() {
 
     const dataProject: Array<Data> = [
-        {titulo: "Shortly", link: "https://bespoke-biscotti-a22532.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: Shortly, desc:"Uma das primeiras landing Pages que crei para mostrar minhas habilidades com React, Typescript, Styled-Components, Radix Ui e HTML. Achei o Layout em site chamado Frontend onde tem varios layout criados por alguns Ui/Ux's"},
+        {titulo: "Shortly", link: "https://bespoke-biscotti-a22532.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: Shortly, desc:"Uma das primeiras landing Pages que crei para mostrar minhas habilidades com React, Typescript, Styled-Components, Radix Ui e HTML. Achei o Layout em site chamado FrontendMentor onde tem muitos layouts criados por alguns Ui/Ux's"},
 
-        {titulo: "MoviesApp ", link: "https://extraordinary-froyo-c2ed82.netlify.app/", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: MoviesApp, desc:"Uma das primeiras landing Pages que crei para mostrar minhas habilidades com React, Typescript, Styled-Components, Radix Ui e HTML. Achei o Layout em site chamado Frontend onde tem varios layout criados por alguns Ui/Ux's"},
+        {titulo: "MoviesApp ", link: "https://extraordinary-froyo-c2ed82.netlify.app/", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: MoviesApp, desc:"Querendo ir no cinema mas não sabe oque assitir? Nesse sistema que fiz ele te informar quais são os filmes que estão em Cartaz no cinema. Para fazer essa aplicação usei React, Typescript, Styled-Components, Javascript, HTML, CSS e a API do pessoal do The Movie Database"},
+     
+        {titulo: "Hunddle", link: "https://dainty-muffin-9dd923.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: Hunddle, desc:"Essa aplicação foi feita utilizando React, Typescript, Styled-Components, Radix Ui, HTML e CSS. Peguei o Desing do site em um site chamado FrontendMentor."},
 
-        {titulo: "Hunddle", link: "https://dainty-muffin-9dd923.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: Hunddle, desc:"Uma das primeiras landing Pages que crei para mostrar minhas habilidades com React, Typescript, Styled-Components, Radix Ui e HTML. Achei o Layout em site chamado Frontend onde tem varios layout criados por alguns Ui/Ux's"},
-
-        {titulo: "Um Brinde na Europa", link: "https://whimsical-torrone-53cd31.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: BrindeEuropa, desc:"Uma das primeiras landing Pages que crei para mostrar minhas habilidades com React, Typescript, Styled-Components, Radix Ui e HTML. Achei o Layout em site chamado Frontend onde tem varios layout criados por alguns Ui/Ux's"}
+        {titulo: "Um Brinde na Europa", link: "https://whimsical-torrone-53cd31.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: BrindeEuropa, desc:"Uma Landing Page bonita é responsiva feita com React, Typescript, Styled-Components, HTML e CSS. O Layout foi feito em um site chamado FrontendMentor"}
     ]
 
     let valueProjectItemPosition = 0;
