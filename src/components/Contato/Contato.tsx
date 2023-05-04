@@ -13,7 +13,7 @@ export function Contato() {
                             <i className="fa-solid fa-square-phone"></i>
                         </div>
                         <div className="contato-container-texto">
-                            <h6>Location</h6>
+                            <h6>Número</h6>
                             <span className="contato-subtitulo">+55 (11) 99818-8091</span>
                         </div>
                     </div>
