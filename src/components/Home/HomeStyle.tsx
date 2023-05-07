@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const AboutCss = styled.div`
+export const HomeCss = styled.div`
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -11,22 +11,20 @@ export const AboutCss = styled.div`
     background-color: #f9f9f9;
 
     /* Container */
-    
-    .about-container{
+    .home-container{
         max-width: 1024px;
         width: 100%;
         height: 100%;
         margin-top: 200px;
     }
-    .about-content{
+    .home-content{
         display: flex;
         align-items: center;
         width: 100%;
     }
 
     /* Title, Desc and Links Content */
-
-    .about-info h1{
+    .home-info h1{
         color: #2d2e32;
         font-size: 55px;
         line-height: 1.2;
@@ -34,12 +32,12 @@ export const AboutCss = styled.div`
         margin-top: 20px;
         width: 500px;
     }
-    .about-info h1 img{
+    .home-info h1 img{
         position: relative;
         width: 60px;
         vertical-align: middle;
     }
-    .about-info span{
+    .home-info span{
         width: 500px;
         display: block;
 
@@ -48,55 +46,53 @@ export const AboutCss = styled.div`
         font-weight: 500;
         line-height: 1.6;
     }
-    .about-links{
+    .home-links{
         width: 500px;
         display: flex;
         gap: 20px;
         margin-top: 25px;
     }
-    .about-links a{
+    .home-links a{
         text-decoration: none;
         color: #2d2e32;
         font-size: 28px;
     }
-    .about-links a:hover{
+    .home-links a:hover{
         color: #147efb;
         transition: 300ms;
     }
 
     /* Image Session */
-
-    .about-image{
+    .home-image{
         display: flex;
         justify-content: center;
         width: 50%;
     }
 
-    .about-image img{
+    .home-image img{
         width: 350px;
         height: 350px;
     }
 
     /* Technology sesssion*/
-
-    .about-technology{
+    .home-technology{
         width: 100%;
         display: flex;
         align-items: center;
         margin-top: 100px;
     }
-    .about-technology span{
+    .home-technology span{
         border-right: 2px solid rgba(45,46,50,.5);
         color: #2d2e32;
         font-weight: 600;
         margin-right: 70px;
         padding-right: 20px;
     }
-    .about-technology-itens{
+    .home-technology-itens{
         display: flex;
         gap: 25px;
     }
-    .about-technology-itens div{
+    .home-technology-itens div{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -105,81 +101,74 @@ export const AboutCss = styled.div`
         height: 65px;
         background-color: #FFF;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        cursor: pointer;
     }
-    .about-technology-itens div:hover{
+    .home-technology-itens div:hover{
         transform: scale(1.3);
         transition: 100ms;
     }
-    .about-technology-itens div img{
+    .home-technology-itens div img{
         width: 34px;
     }
 
     @media (max-width: 1368px){
-
-        .about-container{
+        .home-container{
             margin-top: 100px;
         }
 
-        .about-technology{
+        .home-technology{
             margin-top: 50px;
         }
-
     }
 
     @media (max-width: 1280px) and (max-height: 720px){
-
-        .about-technology{
+        .home-technology{
             margin-bottom: 50px;
         }
-
     }
     @media (max-width: 1280px) and (max-height: 600px){
         height: 130vh;
 
-        .about-info h1{
+        .home-info h1{
             font-size: 40px;
             margin-bottom: 10px;
         }
-
     }
 
     @media (max-width: 800px) and (max-height: 600px){
-
-        .about-container{
+        .home-container{
             max-width: none;
         }
-        .about-content{
+        .home-content{
             display: flex;
         }
 
-        .about-info{
+        .home-info{
             width: 40%;
         }
-        .about-info h1{
+        .home-info h1{
             font-size: 30px;
             width: 320px;
         }
-        .about-info h1 img{
+        .home-info h1 img{
             width: 40px;
         }
-        .about-info span{
+        .home-info span{
             width: 350px;
             font-size: 18px;
         }
-        .about-image img{
+        .home-image img{
             width: 250px;
             height: 250px;
         }
 
-        .about-technology-itens{
+        .home-technology-itens{
             gap: 15px;
         }
-        .about-technology-itens div{
+        .home-technology-itens div{
             width: 45px;
             height: 45px;
         }
-        .about-technology-itens div img{
+        .home-technology-itens div img{
             width: 25px;
         }
     }
@@ -191,51 +180,47 @@ export const AboutCss = styled.div`
         height: auto;
 
         /* Titulo e imagem */
-        .about-content{
+        .home-content{
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 100%;
         }
-        .about-info {
+        .home-info {
             width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
 
-        .about-links{
+        .home-links{
             width: 270px;
         }
 
-
-        .about-info h1{
+        .home-info h1{
             font-size: 30px;
             line-height: 1.2;
             margin-bottom: 20px;
             margin-top: 20px;
             width: 300px;
         }
-        .about-info span{
+        .home-info span{
             width: 300px;
         }
 
         /* Tecnologias */
-        .about-technology-itens{
+        .home-technology-itens{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
         }
-        .about-technology{
+        .home-technology{
             flex-direction: column;
         }
-        .about-technology span{
+        .home-technology span{
             border-right: 0;
             margin-right: 0px;
             padding-right: 0px;
             margin: 30px 0 30px 0;
         }
     }
-
-
-
 `;

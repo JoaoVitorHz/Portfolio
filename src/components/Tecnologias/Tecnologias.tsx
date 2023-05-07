@@ -2,11 +2,10 @@ import { TecnologiasCss } from "./TecnologiasStyle";
 import 'aos/dist/aos.css';
 
 export function Tecnologias(){
-
     return(
         <TecnologiasCss>
             <div className="header-tecnologias">
-                <span>Tecnologia</span>
+                <span>Conhecimentos / Tecnologias</span>
                 <h1 id="TecnologiaScroll">Todas as Tecnologias que domino 🧐</h1>
             </div>
             <div className="tecnologias-bg" data-aos="fade-up">
@@ -17,11 +16,13 @@ export function Tecnologias(){
                         </div>
                     </div>
                     <div className="tecnologiaTitulo">
-                        <h3>FrontEnd</h3>
+                        <h3>Front-End</h3>
                     </div>
                     <div className="tecnologiaLista">
                         <ul>
-                            <li><i className="fa-solid fa-check"></i>React.Js</li>
+                            <li><i className="fa-solid fa-check"></i>React</li>
+                            <li><i className="fa-solid fa-check"></i>NEXT.Js</li>
+                            <li><i className="fa-solid fa-check"></i>Vue</li>
                             <li><i className="fa-solid fa-check"></i>Typescript</li>
                             <li><i className="fa-solid fa-check"></i>Radix Ui</li>
                             <li><i className="fa-solid fa-check"></i>JavaScript</li>
@@ -38,17 +39,15 @@ export function Tecnologias(){
                         </div>
                     </div>
                     <div className="tecnologiaTitulo">
-                        <h3>BackEnd</h3>
+                        <h3>Back-End</h3>
                     </div>
                     <div className="tecnologiaLista">
                         <ul>
                             <li><i className="fa-solid fa-check"></i>PHP</li>
+                            <li><i className="fa-solid fa-check"></i>Laravel</li>
                             <li><i className="fa-solid fa-check"></i>Node.Js</li>
                             <li><i className="fa-solid fa-check"></i>Java</li>
                             <li><i className="fa-solid fa-check"></i>MySql</li>
-                            <li><i className="fa-solid fa-check"></i>MVC</li>
-                            <li><i className="fa-solid fa-check"></i>POO</li>
-                            <li><i className="fa-solid fa-check"></i>SOLID</li>
                         </ul>
                     </div>
                 </div>
@@ -63,10 +62,12 @@ export function Tecnologias(){
                     </div>
                     <div className="tecnologiaLista">
                         <ul>
+                            <li><i className="fa-solid fa-check"></i>React Native</li>
+                            <li><i className="fa-solid fa-check"></i>Api's Rest</li>
+                            <li><i className="fa-solid fa-check"></i>Git / GitHub</li>
                             <li><i className="fa-solid fa-check"></i>Figma</li>
                             <li><i className="fa-solid fa-check"></i>Photoshop</li>
                             <li><i className="fa-solid fa-check"></i>Inglês Intermediario</li>
-                            <li><i className="fa-solid fa-check"></i>SCRUM</li>
                         </ul>
                     </div>
                 </div>

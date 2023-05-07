@@ -11,7 +11,6 @@ export const ContatoCss = styled.div`
         width: 100%;
         height: 100%;
     }
-
     .contato-bg span{
         color: #147efb;
         font-size: 17px;
@@ -23,12 +22,10 @@ export const ContatoCss = styled.div`
         font-size: 25px;
         margin-bottom: 50px;
     }
-
     .contato-content{
         display: flex;
         gap: 50px;
     }
-
 
     .contato-intem{
         display: flex;
@@ -69,7 +66,6 @@ export const ContatoCss = styled.div`
     }
 
     @media (max-width: 800px) and (max-height: 600px){
-
         .contato-bg span{
             font-size: 15px;
         }
@@ -105,11 +101,8 @@ export const ContatoCss = styled.div`
             margin: 20px 0 50px 0;
             width: 300px;
         }
-
         .contato-content{
             flex-direction: column;
         }
-
     }
-
 `;

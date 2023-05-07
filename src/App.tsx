@@ -1,19 +1,20 @@
 import GlobalStyled from "./GlobalStyled"
+
 import { Header } from "./components/header/header"
-import { About } from "./components/aboutMe/About"
-import { AboutTeste } from "./components/About/About"
+import { Home } from "./components/Home/Home"
+import { AboutMe } from "./components/About/About"
+import { Project } from "./components/Project/Project"
 import { Tecnologias } from "./components/Tecnologias/Tecnologias"
 import { Contato } from "./components/Contato/Contato"
-import { Teste } from "./components/ProjetoTeste/teste"
 
 function App() {
   return (
     <>
       <GlobalStyled />
       <Header />
-      <About />
-      <AboutTeste />
-      <Teste/>
+      <Home />
+      <AboutMe />
+      <Project/>
       <Tecnologias />
       <Contato /> 
     </>

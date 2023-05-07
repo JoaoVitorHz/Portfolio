@@ -11,19 +11,16 @@ export const TecnologiasCss = styled.div`
     margin-top: 50px;
     margin-bottom: 100px;
 
-
     .header-tecnologias{
         max-width: 1200px;
         width: 100%;
     }
-
     .header-tecnologias span{
         color: #147efb;
         font-size: 17px;
         font-weight: 700;
         text-transform: uppercase;
     }
-
     .header-tecnologias h1{
         color: #2d2e32;
         font-size: 25px;

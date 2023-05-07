@@ -7,8 +7,7 @@ export const AboutTesteCss = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #FFF;
-    /* Container */
-    
+
     .about-container{
         max-width: 1024px;
         width: 100%;
@@ -31,7 +30,6 @@ export const AboutTesteCss = styled.div`
         height: 400px;
         border-radius: 10px;
     }
-
 
     .about-info{
         display: flex;
@@ -94,7 +92,6 @@ export const AboutTesteCss = styled.div`
     }
 
     @media (max-width: 1280px) and (max-height: 600px){
-
         .about-image img{
             width: 320px;
             height: 270px;
@@ -114,12 +111,9 @@ export const AboutTesteCss = styled.div`
             font-size: 12px;
             margin: 5px;
         }
-
     }
 
     @media (max-width: 800px) and (max-height: 600px){
-        
-
         .about-container{
             max-width: none;
             justify-content: center;
@@ -149,8 +143,6 @@ export const AboutTesteCss = styled.div`
             font-size: 10px;
         }
     }
-
-
     @media (max-width: 768px){
         min-height: 70vh;
         height: auto;
@@ -189,5 +181,4 @@ export const AboutTesteCss = styled.div`
             width: 320px;
         }
     }
-
 `;

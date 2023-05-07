@@ -1,10 +1,9 @@
-import { TesteCss } from "./testeStyle"
+import { ProjectCss } from "./ProjectStyle"
 
 import Shortly from "../../assets/projetos/ShortlyThumb.jpg"
 import BrindeEuropa from "../../assets/projetos/BrindeEuropaThumb.jpg"
 import Hunddle from "../../assets/projetos/HuddleThumb.jpg"
 import MoviesApp from "../../assets/projetos/MoviesApp.jpg"
-
 
 interface Data {
     titulo: string,
@@ -14,43 +13,41 @@ interface Data {
     repository: string,
 }
 
-
-export function Teste() {
-
+export function Project() {
     const dataProject: Array<Data> = [
 
-        {titulo: "Movies Fx ", link: "https://extraordinary-froyo-c2ed82.netlify.app/", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: MoviesApp, desc:"Acesse um Catalogo de Filmes e series criado por min, no sistema você consegue tomar conhecimento dos filmes mais populares, com maior nota, em estreia no cinema entre outros filtros."},
+        {titulo: "Movies Fx ", link: "https://extraordinary-froyo-c2ed82.netlify.app/", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: MoviesApp, desc:"Acesse um Catálogo de Filmes e series criado por min, no sistema você consegue tomar conhecimento dos filmes mais populares, com maior nota, em estreia no cinema entre outros filtros."},
 
-        {titulo: "Shortly", link: "https://bespoke-biscotti-a22532.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: Shortly, desc:"Uma das primeiras landing Pages que crei para mostrar minhas habilidades com React, Typescript, Styled-Components, Radix Ui e HTML. Achei o Layout em site chamado FrontendMentor onde tem muitos layouts criados por alguns Ui/Ux's"},
+        {titulo: "Shortly", link: "https://bespoke-biscotti-a22532.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: Shortly, desc:"Uma das primeiras landing Pages que criei para mostrar minhas habilidades com React, Typescript, Styled-Components, Radix Ui e HTML. Achei o Layout em site chamado FrontendMentor onde tem muitos layouts criados por alguns Ui/Ux's"},
      
         {titulo: "Hunddle", link: "https://dainty-muffin-9dd923.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: Hunddle, desc:"Essa aplicação foi feita utilizando React, Typescript, Styled-Components, Radix Ui, HTML e CSS. Peguei o Desing do site em um site chamado FrontendMentor."},
 
         {titulo: "Um Brinde na Europa", link: "https://whimsical-torrone-53cd31.netlify.app", repository:"https://github.com/JoaoVitorHz/Shortly", imgPath: BrindeEuropa, desc:"Uma Landing Page bonita é responsiva feita com React, Typescript, Styled-Components, HTML e CSS. O Layout foi feito em um site chamado FrontendMentor"}
     ]
 
-    let valueProjectItemPosition = 0;
+    let count = 0;
 
     return(
-        <TesteCss>
+        <ProjectCss>
 
             <div id="ProjetosScroll" className="teste-bg" > 
 
                 <div className="header-projects">
-                    <span>Portfolio</span>
+                    <span>Portfólio</span>
                     <h3>Cada projeto é uma peça única de desenvolvimento 🧩</h3>
                 </div>
 
                 <div className="project-container">
                     {dataProject.map((element) =>{
 
-                        valueProjectItemPosition ++;
-                        let classProjectContent = "projeto-content";
+                        count ++;
+                        let alignmentProject = "projeto-content";
                         
-                        if(valueProjectItemPosition % 2 == 0)
-                        classProjectContent = classProjectContent + " invertPosition";
+                        if(count % 2 == 0)
+                        alignmentProject = alignmentProject + " invertPosition";
                             
                         return(
-                            <div className={classProjectContent}>
+                            <div className={alignmentProject}>
 
                                 <div className="projeto-item-image">
                                     <a href={element.link} target="_blank"><img src={element.imgPath} alt="" /></a>
@@ -79,6 +76,6 @@ export function Teste() {
                 
             </div>
 
-        </TesteCss>
+        </ProjectCss>
     )
 }

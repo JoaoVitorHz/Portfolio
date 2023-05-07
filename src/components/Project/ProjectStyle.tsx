@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TesteCss = styled.div`
+export const ProjectCss = styled.div`
     width: 100vw;
     min-height: 100vh;
     display: flex;
@@ -15,7 +15,6 @@ export const TesteCss = styled.div`
         display: flex;
         flex-direction: column;
         margin: 150px 0;
-
     }
     .header-projects{
         display: flex;
@@ -68,7 +67,6 @@ export const TesteCss = styled.div`
         transform: scale(1.02);
         transition: 300ms;
     }
-
 
     .projeto-info{
         font-weight: 600;
@@ -132,7 +130,6 @@ export const TesteCss = styled.div`
     }
     
     @media (max-width: 800px) and (max-height: 600px){
-
         .project-container{
             align-items: center;
             gap: 30px;
@@ -143,7 +140,6 @@ export const TesteCss = styled.div`
             height: 350px;
             padding: 20px;
         }
-
 
         .projeto-item-image img{
             width: 370px;
@@ -186,7 +182,6 @@ export const TesteCss = styled.div`
             width: 300px;
         }
 
-
         .projeto-item-image img{
             width: 100%;
         }
@@ -194,6 +189,4 @@ export const TesteCss = styled.div`
             margin: 100px 0;
         }
     }
-
-
 `;

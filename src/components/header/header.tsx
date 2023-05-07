@@ -9,7 +9,8 @@ export function Header(){
                    <span>João Vitor</span>
                 </div>
                 <div className="menu">
-                    <a href="#">Sobre min</a>
+                    <a href="#">Home</a>
+                    <a href="#AboutMeScroll">Sobre mim</a>
                     <a href="#ProjetosScroll">Projetos</a>
                     <a href="#TecnologiaScroll">Tecnologias</a>
                     <a href="#ContatoScroll">Contato</a>
@@ -21,7 +22,8 @@ export function Header(){
                         </DropdownMenu.DropdownMenuTrigger> 
                         <DropdownMenu.Content>
                             <DropdownMenu.Group className="group">
-                                <a href="#">Sobre min</a>
+                                <a href="#">Home</a>
+                                <a href="#AboutMeScroll">Sobre mim</a>
                                 <a href="#ProjetosScroll">Projetos</a>
                                 <a href="#TecnologiaScroll">Tecnologias</a>
                                 <a href="#ContatoScroll">Contato</a>

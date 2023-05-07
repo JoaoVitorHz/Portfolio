@@ -28,7 +28,6 @@ export function Contato() {
                         </div>
                     </div>
                 </div>
-
             </div>
         </ContatoCss>
     )
