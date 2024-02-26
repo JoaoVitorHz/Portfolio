@@ -28,4 +28,13 @@ export default createGlobalStyle`
     ::-webkit-scrollbar-thumb{
         background-color: #333;
     }
+
+    .line{
+        content: '';
+        display: block;
+        width: 70vw;
+        height: 1px;
+        margin: auto;
+        background-color: #aaa;
+    }
 `;

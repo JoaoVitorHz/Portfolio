@@ -20,15 +20,17 @@ export function Tecnologias(){
                     </div>
                     <div className="tecnologiaLista">
                         <ul>
+                            <li><i className="fa-solid fa-check"></i>Next.Js</li>
                             <li><i className="fa-solid fa-check"></i>React</li>
-                            <li><i className="fa-solid fa-check"></i>NEXT.Js</li>
+                            <li><i className="fa-solid fa-check"></i>React Native</li>
                             <li><i className="fa-solid fa-check"></i>Vue</li>
                             <li><i className="fa-solid fa-check"></i>Typescript</li>
-                            <li><i className="fa-solid fa-check"></i>Radix Ui</li>
                             <li><i className="fa-solid fa-check"></i>JavaScript</li>
+                            <li><i className="fa-solid fa-check"></i>TailwindCss</li>
+                            <li><i className="fa-solid fa-check"></i>Shadecn.ui</li>
                             <li><i className="fa-solid fa-check"></i>HTML</li>
                             <li><i className="fa-solid fa-check"></i>CSS</li>
-                            <li><i className="fa-solid fa-check"></i>Bootstrap</li>
+
                         </ul>
                     </div>
                 </div>
@@ -62,7 +64,6 @@ export function Tecnologias(){
                     </div>
                     <div className="tecnologiaLista">
                         <ul>
-                            <li><i className="fa-solid fa-check"></i>React Native</li>
                             <li><i className="fa-solid fa-check"></i>Api's Rest</li>
                             <li><i className="fa-solid fa-check"></i>Git / GitHub</li>
                             <li><i className="fa-solid fa-check"></i>Figma</li>

@@ -7,12 +7,15 @@ import { Project } from "./components/Project/Project"
 import { Tecnologias } from "./components/Tecnologias/Tecnologias"
 import { Contato } from "./components/Contato/Contato"
 
+import { Work } from "./page/work/Work"
+
 function App() {
   return (
     <>
       <GlobalStyled />
       <Header />
       <Home />
+      <Work />
       <AboutMe />
       <Project/>
       <Tecnologias />
