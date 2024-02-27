@@ -4,6 +4,7 @@ import Shortly from "../../assets/projetos/ShortlyThumb.jpg"
 import BrindeEuropa from "../../assets/projetos/BrindeEuropaThumb.jpg"
 import Hunddle from "../../assets/projetos/HuddleThumb.jpg"
 import MoviesApp from "../../assets/projetos/MoviesApp.jpg"
+import PageTitle from "../PageTitle"
 
 interface Data {
     titulo: string,
@@ -32,11 +33,8 @@ export function Project() {
 
             <div id="ProjetosScroll" className="teste-bg" > 
 
-                <div className="header-projects">
-                    <span>Portfólio</span>
-                    <h3>Cada projeto é uma peça única de desenvolvimento 🧩</h3>
-                </div>
-
+                <PageTitle title="Portfólio" subTitle="Cada projeto é uma peça única de desenvolvimento 🧩" />
+                
                 <div className="project-container">
                     {dataProject.map((element) =>{
 

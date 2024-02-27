@@ -1,13 +1,15 @@
+import PageTitle from "../PageTitle";
 import { TecnologiasCss } from "./TecnologiasStyle";
 import 'aos/dist/aos.css';
 
 export function Tecnologias(){
     return(
         <TecnologiasCss>
-            <div className="header-tecnologias">
-                <span>Conhecimentos / Tecnologias</span>
-                <h1 id="TecnologiaScroll">Todas as Tecnologias que domino 🧐</h1>
+
+            <div className="w-[80%] flex justify-start">
+                <PageTitle title="Conhecimentos / Tecnologias" subTitle="Todas as Tecnologias que domino / conheço 🧐" />
             </div>
+
             <div className="tecnologias-bg" data-aos="fade-up">
                 <div className="tecnologiasListaItems">
                     <div className="bola-bg">

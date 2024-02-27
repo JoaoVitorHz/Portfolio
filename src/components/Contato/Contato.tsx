@@ -1,11 +1,12 @@
+import PageTitle from "../PageTitle";
 import { ContatoCss } from "./ContatoStyle";
 
 export function Contato() {
     return(
         <ContatoCss>
             <div id="ContatoScroll" className="contato-bg" data-aos="fade-down">
-                <span>Contato</span>
-                <h3>Não seja tímido! Entre em contado comigo! 👇</h3>
+
+                <PageTitle title="Contato" subTitle="Não seja tímido! Entre em contado comigo! 👇" />
 
                 <div className="contato-content">
                     <div className="contato-intem">

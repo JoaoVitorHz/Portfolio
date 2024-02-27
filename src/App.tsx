@@ -1,4 +1,5 @@
-import GlobalStyled from "./GlobalStyled"
+
+import './index.css'
 
 import { Header } from "./components/header/header"
 import { Home } from "./components/Home/Home"
@@ -12,7 +13,6 @@ import { Work } from "./page/work/Work"
 function App() {
   return (
     <>
-      <GlobalStyled />
       <Header />
       <Home />
       <Work />
