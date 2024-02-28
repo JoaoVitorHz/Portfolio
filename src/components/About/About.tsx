@@ -11,7 +11,7 @@ export function AboutMe(){
                 </div>
 
                 <div className="flex flex-col justify-center items-center">
-                    <PageTitle title="Sobre Mim" subTitle="ou um Desenvolvedor Full-Stack, com mais de 4 anos de experiência 📍" />
+                    <PageTitle title="Sobre Mim" subTitle="Desenvolvedor Full-Stack, com mais de 4 anos de experiência 📍" />
                     {/* <span>Sobre Mim</span>
 
                     <h3>Sou um Desenvolvedor Full-Stack, com mais de 4 anos de experiência 📍</h3> */}

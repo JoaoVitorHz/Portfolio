@@ -1,40 +1,42 @@
 import { WorkStyle } from "./WorkStyle"; 
 
-import experience from '../../assets/experienceText.js'
+import Experiences from '../../assets/experienceText.js'
 import PageTitle from "../../components/PageTitle";
+import ClinicPlus from "../../assets/LogoRed.svg"
 
 export function Work(){
     return(
-        <div className="w-screen min-h-[70vh] p-[100px] flex justify-center items-center bg-white">
-            <div className="w-[80%] flex flex-col" id="AboutMeScroll">
-
+        <div className="w-screen h-auto p-5 flex justify-center items-center bg-white">
+            <div className="w-[80%] h-auto flex items-center  flex-col" id="AboutMeScroll">
                 <PageTitle 
                     title="Experiência Profissional" 
                     subTitle="4 Anos de Experiência Profissional 🐱‍💻" 
                 />
 
-                <div className="w-full gap-5 grid grid-cols-2 justify-items-center screen-1024:grid-cols-1">
-                    {experience.map((work) => {
+                <div className="w-[950px] grid grid-cols-2 justify-items-center gap-7 screen-1024:grid-cols-1">
+                    {Experiences.map((experience) => {
                         return(
-                            <div className="work-item">
-                                <div className="w-[400px] h-[300px] mb-[10px] rounded-md flex justify-center items-center bg-[#eee]">
-                                    <img src={work.logo} alt="" />
+                            <div className="">
+                                <div className="w-[448px] h-[336px] bg-[#f1f1f1] flex justify-center items-center">
+                                    <img className="" src={experience.logo} alt="" />
                                 </div>
-                                <div className="work-item-desc">
-                                    <h4 className="font-semibold">{work.company}</h4>
-                                    <span className="text-sm text-[#888]">{work.position}</span>
-                                    <ul className="w-[350px] ml-5 mt-[10px] text-black text-sm font-medium list-disc">
-                                    {work.task.map((item) => {
-                                        return(
-                                            <li>{item}</li>
-                                        )
-                                    })}
+
+                                <div className="flex gap-2 flex-col mt-5 w-[448px]">
+                                    <h1 className="text-xl font-semibold">{experience.company}</h1>
+                                    <span className="text-sm text-gray-400">{experience.position}</span>
+                                    <ul className="list-disc ml-5 font-thin">
+                                        {experience.task.map((item) => <li>{item}</li>)}
                                     </ul>
                                 </div>
                             </div>
                         )
                     })}
+                    
+
                 </div>
+
+
+               
             </div>
         </div>
     )

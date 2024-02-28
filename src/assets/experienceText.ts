@@ -28,7 +28,7 @@ const experience =[
     {
         company: 'Clinic Plus',
         logo: ClincPlus,
-        position: 'Senior Desenvolvedor Full-Stack',
+        position: 'Senior Desenvolvedor Web e Mobile, UI/UX Desing',
         task: [
             "Desenvolvimento de novas funcionalidades.",
             "Identificação e resolução de bugs.",
